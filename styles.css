@@ -1,0 +1,199 @@
+/*Styles*/
+
+body {
+    font-size: 18px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,"Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    color: #2D3748;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    grid-column: span 2;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+#title{
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 450px;
+    grid-template-rows: auto 1fr auto;
+    gap: 100px;
+    max-width: 2000px; /* Optional: limit the width of the page */
+    margin: 10px auto; /* push margin down */
+    padding: 20px;
+    background-color: #fff; /* White background inside the border */
+    border: 2px solid #CBD5E0; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow*/
+}
+
+/* profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px; /*Space between image and text*/
+    border-radius: 50%;
+}
+
+/*div header text*/
+.header-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+}
+
+
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    grid-column: 1 / 2; /* Main content occupies the first column */
+}
+
+/* Blog Post Styles */
+.blog-post {
+    margin-bottom: 40px; /* Space between posts */
+}
+
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+    margin-bottom: 5px;
+}
+
+.post-meta {
+    color: #718096;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Image Manipulation*/
+.post-image-left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.post-image-right {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;    
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6; /*readability */
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/*Sidebar Stylings*/
+
+aside {
+    padding: 20px;
+    grid-column: 2; /* Sidebar occupies the second column */
+    /*border-left: 2px solid #2D3748; /* Border to enhance the sidebar's appearance */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.about{
+    background-color: #E2E8F0;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5%;
+}
+.about p{
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.social-media h3, .archives h3 {
+    font-size: 24px;
+    color: #48BB78; 
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold; 
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+}
+
+li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #4299E1; /* Color for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Specific styling for About section */
+.about h3 {
+    font-size: 24px;
+    color: #000000; 
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6; /*readability */
+    margin-bottom: 10px;
+    color: #2D3748;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+
+main {
+    grid-column: 1; /* Main content occupies the first column */
+}
+
+footer {
+    grid-column: 1 / span 2; /* Footer spans both columns */
+    padding: 10px;
+    background-color: #2C5282; /* Footer background color */
+    color:#FFFFFF; /* Footer text color */
+    text-align: center; 
+}
+
+#footer{
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+    text-align: center;
+    color: white;
+}
